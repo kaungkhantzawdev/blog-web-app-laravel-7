@@ -69,7 +69,7 @@
                 </div>
             </div>
             @empty
-                <div class="my-4 pb-4 ">
+                <div class="mb-4 pb-4 ">
                     <div class="d-flex justify-content-center">
                         <div class="">
                             <h4 class="">There is no article 😔</h4>
