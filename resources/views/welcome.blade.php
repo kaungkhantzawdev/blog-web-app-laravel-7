@@ -97,6 +97,7 @@
             </div>
         </div>
     </div>
+    @if($oldArticle)
     <div class="col-12 col-lg-5 border-start">
         <div class="">
             <div class="border-bottom mb-4 pb-4">
@@ -143,4 +144,5 @@
             </div>
         </div>
     </div>
+    @endif
 @endsection
