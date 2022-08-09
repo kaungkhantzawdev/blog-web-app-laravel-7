@@ -1,0 +1,143 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.pagination{
+    margin-bottom: 0 !important;
+}
+
+.hide{
+    margin-left: -100% !important;
+    transition: 0.3s;
+}
+.show{
+    margin-left: 0 !important;
+    transition: 0.3s;
+}
+
+.sidebar{
+    width: 20rem;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--bs-white);
+    transition: 0.3s;
+
+    .sidebar-menu{
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar-item{
+        list-style: none;
+    }
+    .sidebar-link{
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        display: block;
+        transition: 0.5s;
+        color: var(--bs-dark);
+        text-transform: capitalize;
+    }
+    .sidebar-link:hover{
+        background-color: rgba(189,197,209,.2);
+        color: #132144;
+    }
+    .sidebar-active{
+        background-color: rgba(189,197,209,.2);
+        color: #132144;
+    }
+    .menu-title{
+        text-transform: uppercase;
+        list-style: none;
+        color: var(--bs-gray-500);
+    }
+    .menu-spacer{
+        display: block;
+        height: 20px;
+    }
+}
+
+.header{
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    background-color: var(--bs-white);
+}
+.sub-header{
+    margin-left: 20rem;
+    transition: 0.3s;
+}
+.main{
+    transition: 0.3s;
+    position: absolute;
+    top: 80px;
+}
+.sub-main, .sub-main-two{
+    margin-left: 20rem;
+    transition: 0.3s;
+}
+.search-form{
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: var(--bs-dark);
+}
+
+.ani-tran{
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1400px) {
+    .sidebar{
+        width: 16.5rem;
+        background-color: var(--bs-white);
+        .sidebar-menu{
+            overflow-y: scroll;
+            height: 100%;
+            position: absolute;
+        }
+        .sidebar-link{
+            width: 193px;
+        }
+    }
+    .sub-header{
+        margin-left: 16.5rem;
+        transition: 0.3s;
+    }
+    .sub-main, .sub-main-two{
+        margin-left: 16.5rem;
+        transition: 0.3s;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+        width: 300px;
+        margin-left: -100%;
+        .sidebar-link{
+            width: 244px;
+        }
+    }
+    .sub-header{
+        margin-left: 0;
+        transition: 0.3s;
+    }
+    .sub-main, .sub-main-two{
+        margin-left: 0;
+        transition: 0.3s;
+    }
+
+}
+
+
+// banner
+.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}

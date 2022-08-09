@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Padauk:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-family-sans-serif: 'Open Sans','Padauk', sans-serif;
+//$font-family-sans-serif: 'Raleway','Padauk', sans-serif;
+$font-family-monospace: 'Raleway','Padauk', sans-serif;
+
+$border-radius:              8px;
+$card-border-radius:         12px;
+$input-padding-x: 16px;
+$input-padding-y: 8px;
+$btn-padding-x: 16px;
+$btn-padding-y: 8px;
+$badge-padding-y:                   8px;
+$badge-padding-x:                   8px;
+$badge-border-radius:               4px;
+$progress-height:                   0.7rem;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-icons/font/bootstrap-icons";
+@import "~sweetalert2/dist/sweetalert2.min.css";
+@import "dashboard";
